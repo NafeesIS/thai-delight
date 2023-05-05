@@ -7,15 +7,14 @@ const Blog = () => {
             <div className='q1'>
                 <h2>Tell us the differences between uncontrolled and controlled components?</h2>
                 <p>
-                    Context API in React is used for sharing data between components without the need to pass props down through the entire component tree. It is a good choice when you have data that needs to be accessed by multiple components at different levels of the component tree.
+                    In React, components can be classified into two categories: controlled and uncontrolled components.
                     <br />
-                    1/When you have data that is shared by multiple components that are not directly related to each other, for example, theming or user authentication data.
+                    Uncontrolled components are components that manage their own state internally, without relying on the state managed by their parent component. They use the DOM to access their own state, and are typically implemented using refs. Uncontrolled components are generally simpler to implement and require less code than their controlled counterparts. However, they can be difficult to debug and can lead to unexpected behavior if not used carefully.
                     <br />
-                    2/When you want to avoid "prop drilling," which is the process of passing data through multiple layers of components as props.
+                    On the other hand, controlled components are components that rely on their parent component to manage their state. The parent component passes down state values to the controlled component as props, and the controlled component notifies the parent component of any changes through callbacks. Controlled components are generally more robust and easier to test than uncontrolled components. However, they can be more complex to implement and require more code.
+
                     <br />
-                    3/When passing data through multiple levels of the component tree becomes cumbersome or difficult to manage.
-                    <br />
-                    To summarize, props are used to pass data from a parent component to a child component, while state is used to manage data within a component itself.
+                    In summary, the main difference between controlled and uncontrolled components is how they manage their state. Controlled components rely on the parent component to manage their state, while uncontrolled components manage their state internally. The choice between using controlled or uncontrolled components depends on the specific use case and the tradeoffs between simplicity and robustness.
                 </p>
             </div>
 
