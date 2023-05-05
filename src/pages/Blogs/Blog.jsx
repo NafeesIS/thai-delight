@@ -41,7 +41,7 @@ const Blog = () => {
                 </p>
             </div>
             <div className='q4'>
-                <h2>What is useMemo?</h2>
+                <h2>What is a custom hook, and why will you create a custom hook?</h2>
                 <p>
                     useMemo is a hook that allows you to memoize the result of a function call.
                     Memoization can be useful for optimizing the performance of expensive calculations or complex rendering logic.
