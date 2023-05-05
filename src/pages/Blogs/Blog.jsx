@@ -26,18 +26,15 @@ const Blog = () => {
                 </p>
             </div>
             <div className='q3'>
-                <h2>What is useRef?</h2>
+                <h2>Tell us the difference between nodejs and express js?</h2>
                 <p>
-                    useRef is a hook in React that returns a mutable ref object.
-                    The ref object can hold a reference to a DOM element or a value.
-                    The ref can be used to persist values across re-renders of a component.
-                    To create a ref, you can call useRef and pass an initial value as an argument.
-                    To access the value of a ref, you can use the current property of the ref object.
-                    To set the value of a ref, you can simply assign a new value to the current property.
-                    To use a ref to access a DOM element, you can set the ref attribute of the element to the ref object.
-                    When the component is mounted, the ref will hold a reference to the DOM element and you can use it to manipulate the element, for example, by calling methods like focus().
-                    Refs can also be used to store values that do not affect rendering, such as timers, previous state values, or anything else that needs to be persisted across re-renders.
-                    It is important to note that changing the value of a ref does not trigger a re-render of the component. Therefore, using refs to manage state or trigger re-renders is not recommended, and should be done through state or props instead.
+                    Node.js and Express.js are both popular technologies used in server-side web development with JavaScript, but they serve different purposes.
+
+                    Node.js is a runtime environment for executing JavaScript code outside of a web browser, on a server or desktop machine. It provides a JavaScript runtime environment built on top of Google's V8 engine, allowing developers to use JavaScript for writing server-side code, including web applications, APIs, command-line tools, and more.
+
+                    Express.js, on the other hand, is a web application framework for Node.js. It provides a set of features and tools for building web applications and APIs, such as routing, middleware, HTTP request/response handling, and more. Express.js is built on top of Node.js, which means it can take advantage of all of Node.js's capabilities, while providing a simpler, more streamlined approach to building web applications.
+
+                    In summary, Node.js is a JavaScript runtime environment, while Express.js is a web application framework built on top of Node.js.
 
 
 
