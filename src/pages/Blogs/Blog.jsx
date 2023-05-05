@@ -43,14 +43,9 @@ const Blog = () => {
             <div className='q4'>
                 <h2>What is a custom hook, and why will you create a custom hook?</h2>
                 <p>
-                    useMemo is a hook that allows you to memoize the result of a function call.
-                    Memoization can be useful for optimizing the performance of expensive calculations or complex rendering logic.
-                    The first argument to useMemo is a function that returns the memoized value.
-                    The second argument is an array of dependencies that determine when the memoized value should be recalculated.
-                    If any of the dependencies have changed since the last render, the memoized value is recalculated.
-                    If none of the dependencies have changed, the previous memoized value is returned without re-evaluating the function.
-                    useMemo also can be used to memoize any function that has deterministic output based on its input.
-                    It is important to use useMemo judiciously and only when necessary, as it can add complexity and overhead to your code.
+                    A custom hook is a JavaScript function that starts with the prefix "use" and allows you to extract repeated logic into reusable functions. Custom hooks are a way to share stateful logic between components, without having to use higher-order components or render props.
+
+                    You would create a custom hook to extract repetitive code from your components into reusable functions. This can help simplify and modularize your code, making it easier to read and maintain. Custom hooks can also help to reduce the amount of boilerplate code needed in your components, making your codebase more concise and easier to work with.
                 </p>
             </div>
             <Footer></Footer>
