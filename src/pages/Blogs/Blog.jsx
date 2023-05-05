@@ -43,7 +43,7 @@ const Blog = () => {
             <div className='q4'>
                 <h2>What is a custom hook, and why will you create a custom hook?</h2>
                 <p>
-                    A custom hook is a JavaScript function that starts with the prefix "use" and allows you to extract repeated logic into reusable functions. Custom hooks are a way to share stateful logic between components, without having to use higher-order components or render props. You would create a custom hook to extract repetitive code from your components into reusable functions. This can help simplify and modularize your code, making it easier to read and maintain. Custom hooks can also help to reduce the amount of boilerplate code needed in your components, making your codebase more concise and easier to work with.
+                    A custom hook is a JavaScript function that starts with the prefix "use" and allows you to extract repeated logic into reusable functions. Custom hooks are a way to share stateful logic between components, without having to use higher-order components or render props. You would create a custom hook to extract repetitive code from your components into reusable functions. This can help simplified and modularize your code, making it easier to read and maintain. Custom hooks can also help to reduce the amount of boilerplate code needed in your components, making your codebase more concise and easier to work with.
                 </p>
             </div>
             <Footer></Footer>
