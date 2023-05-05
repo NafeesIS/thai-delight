@@ -1,0 +1,32 @@
+.login-form-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.login-form input {
+    margin-bottom: 1rem;
+}
+
+.login-form label {
+    font-weight: 600;
+}
+
+.login-form button {
+    margin-top: 1rem;
+}
+
+.login-form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
