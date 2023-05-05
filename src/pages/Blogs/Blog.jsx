@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <div className='my_blog'>
             <div className='q1'>
-                <h2>When should you use context API?</h2>
+                <h2>Tell us the differences between uncontrolled and controlled components?</h2>
                 <p>
                     Context API in React is used for sharing data between components without the need to pass props down through the entire component tree. It is a good choice when you have data that needs to be accessed by multiple components at different levels of the component tree.
                     <br />
