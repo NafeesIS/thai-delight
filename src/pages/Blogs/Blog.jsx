@@ -19,11 +19,9 @@ const Blog = () => {
             </div>
 
             <div className='q2'>
-                <h2>What is a custom hook?</h2>
+                <h2>How to validate React props using PropTypes?</h2>
                 <p>
-                    In React, a custom hook is a JavaScript function that allows you to reuse logic across multiple components. A custom hook starts with the word "use" and typically encapsulates some stateful logic or side effect, such as fetching data from an API, setting up event listeners, or managing local storage
-                    <br />
-                    Custom hooks are a powerful way to encapsulate and reuse logic in React applications. By abstracting away complex logic into a custom hook, you can simplify your components and make them more reusable.
+                    PropTypes is a useful tool in React for validating the type and required nature of props passed to a component. By using PropTypes, you can ensure that your components receive the correct data types, reducing the chances of unexpected errors or bugs. To use PropTypes, you can import it from the prop-types package and define the propTypes object for your component, specifying the type and required nature of each prop. This can be done by calling the corresponding PropTypes method (e.g. PropTypes.string, PropTypes.number, etc.) and passing it as the value for each prop key in the propTypes object.
 
                 </p>
             </div>
