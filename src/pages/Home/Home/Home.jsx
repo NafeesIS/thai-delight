@@ -10,7 +10,7 @@ const Home = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <div className="welcome-message text-center text-white ">
+                                <div className="welcome-message text-center text-white">
                                     <h1 className='fw-bolder'>Welcome to <span>Thai Delight</span></h1>
                                     <p className='text-danger fw-bolder'>Find the best  recipes from top chefs</p>
                                 </div>
